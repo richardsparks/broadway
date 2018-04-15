@@ -42,3 +42,20 @@ p {
   padding: 0;
   margin: 0;
 }
+
+#wrap-header-nav a:hover {
+  text-decoration: none;
+}
+
+h3#designed {
+  color: white;
+  background: grey url("../images/the-flatiron-building.png");
+}
+
+#contact a {
+  color: black;
+}
+
+#contact a:hover {
+  text-decoration: none;
+}
