@@ -19,18 +19,18 @@ h3 {
   font-weight: bold;
 }
 
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 p {
   font-size: 14px;
 }
 
 #wrap-header-nav {
   background: grey url("../images/the-flatiron-building.png");
-}
-
-#wrap-header-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 #wrap-header-nav li {
@@ -58,4 +58,30 @@ h3#designed {
 
 #contact a:hover {
   text-decoration: none;
+}
+
+footer {
+  background-color: dimgray;
+  text-align: left;
+  overflow: auto;
+}
+
+footer p {
+  margin: 0;
+  padding: 0.5em 0.4em 0.1em 0;
+  font-size: 11px;
+  color: white;
+  float: left;
+}
+
+footer ul {
+  float: left;
+}
+
+footer li {
+  display: inline;
+}
+
+footer li a {
+  color: white;
 }
